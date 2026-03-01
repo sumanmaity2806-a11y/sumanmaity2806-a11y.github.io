@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My new Site
+title: Janak Development & Infrastruture
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site is for testing purpose. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We bridge the gap between vision and reality. 
+  Specializing in high-quality residential and 
+  commercial buildings and robust road infrastructure.
+  Delivering precision engineering and durable results.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sumanmaity2806-a11y.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

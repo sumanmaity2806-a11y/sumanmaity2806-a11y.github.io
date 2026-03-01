@@ -4,3 +4,7 @@
 
 layout: home
 ---
+Lets try this
+
+<img src="{{ site.baseurl }}/docs/assets/images/logo.jpg" alt="logo" style="width:100%; max-width:600px;">
+

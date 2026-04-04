@@ -12,3 +12,16 @@
 // .bg-primary{
 //     background-color: #1d4367 !important
 // }
+.header-bg {
+  background-image: url("../img/janak_background.png"); /* Replace with your image path */
+  background-size: cover;       /* Makes sure the image covers the entire header */
+  background-position: center;  /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents tiling */
+}
+.custom-text {
+  color: #ffffff; /* Indigo */
+  font-size: 100px;
+  font-weight: bold;
+  font-family: "Georgia", serif;
+}
+

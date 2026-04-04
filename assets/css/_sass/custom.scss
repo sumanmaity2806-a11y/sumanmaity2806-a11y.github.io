@@ -17,11 +17,24 @@
   background-size: cover;       /* Makes sure the image covers the entire header */
   background-position: center;  /* Keeps the image centered */
   background-repeat: no-repeat; /* Prevents tiling */
+  width: 100%;                  /* Full width */
+  min-height: 300px;            /* Minimum height for smaller screens */
+  display: flex;                /* Flexbox for alignment */
+  align-items: center;          /* Vertically center content */
+  justify-content: center;      /* Horizontally center content */
+  text-align: center;           /* Center text for mobile */
 }
 .custom-text {
   color: #ffffff; /* Indigo */
-  font-size: 100px;
+  font-size: clamp(30px, 10vw, 80px);
   font-weight: bold;
   font-family: "Georgia", serif;
 }
+
+.logo {
+  max-width: 20%;   /* Prevents overflow */
+  height: auto;      /* Keeps aspect ratio */
+  margin-right: 10px;
+}
+
 
